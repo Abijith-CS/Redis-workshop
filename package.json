@@ -1,0 +1,17 @@
+{
+  "name": "redis-caching-demo",
+  "version": "1.0.0",
+  "description": "A beginner-friendly demo project to demonstrate Redis caching with Node.js",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "redis": "^4.6.13"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
